@@ -1,0 +1,161 @@
+body {
+    /* -- Get rid of browser defaults -- */
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /* -- --- -- */
+    height: 100%;
+    min-width: 1200px;
+    width: auto !important;
+    overflow: auto;
+    background: #4b4b4b;
+}
+
+/* ---------- Website Container ---------- */
+#website-container {
+    background: #f9f9f9;
+    max-width: 95%;
+    margin: 0 auto;
+    min-height: 100vh;
+    /* No overflow because sticky navbar */
+}
+/* ---------- --- ---------- */
+
+/* ---------- General Container ---------- */
+.container {
+    padding: 8px;
+}
+/* ---------- --- ---------- */
+
+/* ---------- Header ---------- */
+#header {
+    height: 100px;
+    left: 0;
+    right: 0;
+    overflow: auto;
+}
+
+#header h2 {
+    margin: 0;
+}
+/* ---------- --- ---------- */
+
+/* ---------- Navbar ---------- */
+.navbar {
+    /* Safari */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+}
+
+.navbar ul {
+    margin: 0;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    display: inline-block;
+    color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #111111
+}
+/* ---------- --- ---------- */
+
+/* ---------- Skill Bars ---------- */
+#progress {
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    margin: 10px auto;
+    width: 100%;
+    text-align: center;
+    background-color: grey;
+}
+
+#bar {
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    text-align: center;
+    height: 12px;
+    background-color: green;
+}
+/* ---------- --- ---------- */
+
+/* ---------- Main Content ---------- */
+#main-container {
+    background: rgb(63, 71, 85);
+    height: 100%;
+    padding: 0;
+    overflow: auto;
+}
+
+.sidebar {
+    float: left;
+    width: 260px;
+    background: rgb(63, 71, 85);
+    color: white;
+}
+
+.sidebar-header {
+    padding: 10px;
+    text-align: center;
+    background: rgb(53, 60, 72);
+    color: white;
+}
+
+.sidebar-container {
+    padding: 5px 12px;
+}
+
+#content {
+    margin-left: 260px;
+    height: 100%;
+    background: #eee;
+    padding: 1px 10px;
+}
+/* ---------- --- ---------- */
+
+/* ---------- Horizontal Rules ---------- */
+
+/* ---------- --- ---------- */
+
+/* ---------- Custom "tables" ---------- */
+.row {
+    width: 100%;
+    overflow: auto;
+}
+
+.column-2 {
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+
+.column-3 {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+/* ---------- --- ---------- */
+
+/* ---------- Footer ---------- */
+#footer {
+    text-align: right;
+    color: white;
+    background-color: #333;
+    padding: 8px 4px;
+}
+/* ---------- --- ---------- */
