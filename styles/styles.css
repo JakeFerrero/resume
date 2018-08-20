@@ -11,6 +11,11 @@ body {
     background: #4b4b4b;
 }
 
+hr {
+    margin-top: -.8em;
+    margin-bottom: -.5em;
+}
+
 /* ---------- Website Container ---------- */
 #website-container {
     background: #f9f9f9;
@@ -33,6 +38,8 @@ body {
     left: 0;
     right: 0;
     overflow: auto;
+    background: rgb(63, 71, 85);
+    color: white;
 }
 
 #header h2 {
@@ -74,7 +81,7 @@ body {
 /* ---------- --- ---------- */
 
 /* ---------- Skill Bars ---------- */
-#progress {
+.bar {
     border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -84,7 +91,7 @@ body {
     background-color: grey;
 }
 
-#bar {
+.progress {
     border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -109,6 +116,10 @@ body {
     color: white;
 }
 
+.sidebar a {
+    color: white;
+}
+
 .sidebar-header {
     padding: 10px;
     text-align: center;
@@ -125,6 +136,15 @@ body {
     height: 100%;
     background: #eee;
     padding: 1px 10px;
+}
+
+.body-list {
+    margin-top: -10px;
+    padding: .25em 1.5em;
+}
+
+.course-list {
+    padding: .25em 1.5em;
 }
 /* ---------- --- ---------- */
 

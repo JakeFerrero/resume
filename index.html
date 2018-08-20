@@ -62,6 +62,11 @@
                 </div>
                 <div class="sidebar-container">
                     <p>
+                        <b>Contact</b>
+                        <br/> <a href="mailto:jaferrer@ncsu.edu">jaferrer@ncsu.edu</a>
+                        <br/> 704-661-2565
+                    </p>
+                    <p>
                         <b>Home Address</b>
                         <br/> 182 Templeton Bay Dr.
                         <br/> Mooresville, NC 28117
@@ -73,11 +78,11 @@
                     </p>
                     <p>
                         <b>LinkedIn</b>
-                        <br/> TODO
+                        <br/> <a href="https://www.linkedin.com/in/jacob-ferrero-1358a6123/">linkedin.com/in/jacob-ferrero</a>
                     </p>
                     <p>
                         <b>GitHub</b>
-                        <br/> TODO
+                        <br/><a href="https://github.com/JakeFerrero">github.com/JakeFerrero</a>
                     </p>
                 </div>
 
@@ -86,52 +91,55 @@
                 </div>
                 <div class="sidebar-container">
                     Java
-                    <div id="progress">
-                        <div id="bar"></div>
-                    </div>
-                    <span style="float: right;">Excellent</span>
-                    
-                    <br/>
-
-                    C
-                    <div id="progress">
-                        <div id="bar"></div>
-                    </div>
-                    <span style="float: right;">Excellent</span>
-                    
-                    <br/>
-
-                    Unix Scripting
-                    <div id="progress">
-                        <div id="bar"></div>
+                    <div class="bar">
+                        <div id="java-progress" class="progress"></div>
                     </div>
                     <span style="float: right;">Excellent</span>
                     
                     <br/>
 
                     Javascript, CSS
-                    <div id="progress">
-                        <div id="bar"></div>
+                    <div class="bar">
+                        <div id="js-progress" class="progress"></div>
                     </div>
-                    <span style="float: right;">Excellent</span>
+                    <span style="float: right;">Very Good</span>
+                    
+                    <br/>
+
+                    Unix Scripting
+                    <div class="bar">
+                        <div id="unix-progress" class="progress"></div>
+                    </div>
+                    <span style="float: right;">Very Good</span>
+                    
+                    <br/>
+
+                    C
+                    <div class="bar">
+                        <div id="c-progress" class="progress"></div>
+                    </div>
+                    <span style="float: right;">Very Good</span>
                     
                     <br/>
 
                     Python
-                    <div id="progress">
-                        <div id="bar"></div>
+                    <div class="bar">
+                        <div id="python-progress" class="progress"></div>
                     </div>
-                    <span style="float: right;">Excellent</span>
+                    <span style="float: right;">Good</span>
 
                     <br/>
 
-                    golang
-                    <div id="progress">
-                        <div id="bar"></div>
+                    Golang
+                    <div class="bar">
+                        <div id="go-progress" class="progress"></div>
                     </div>
-                    <span style="float: right;">Excellent</span>
+                    <span style="float: right;">Good</span>
+
+                    <br/>
                 </div>
 
+            <!-- End of Sidebar -->
             </div>
 
             <div id="content">
@@ -141,8 +149,11 @@
                     </a>
                     <hr/>
                     <p>
-                        Highly motivated student with extensive programming experience in a variety of languages and environments looking for a Software
-                        Development position
+                        Highly motivated student with extensive programming experience in a variety of languages and environments looking for a Software Development
+                        position. Background in developing code for a Fortune 500 company. Strong team building and leadership skills, hard working,
+                        and can easily adapt in a fast-paced and changing work environment. Experience in both Agile and Waterfall development methodologies.
+                        Thrive during deadline-driven assignments.
+
                     </p>
                 </div>
 
@@ -152,10 +163,10 @@
                     </a>
                     <hr/>
                     <p>
-                        North Carolina State University<br/>
-                        <span>Bachelor’s Degree, Computer Science</span><span style="float: right;">December 2018</span>
-                        <br/>
-                        GPA: 4.0, Rank 1
+                        North Carolina State University <span style="float: right;">December 2018</span>
+                        <br/> Bachelor’s Degree, Computer Science
+                        <br/> Minor, Japanese Language
+                        <br/> GPA: 4.0, Rank 1
                     </p>
                 </div>
 
@@ -168,7 +179,7 @@
                         <b>Oracle</b><br/>
                         <i>Platform Testing and Automation Co-op – Morrisville, NC</i>
                         <span style="float: right;">January 2015 – August 2015</span>
-                        <ul>
+                        <ul class="body-list">
                             <li>
                                 Used Black and White Box testing to evaluate Platform functionality used by companies such as Verizon and Sprint
                             </li>
@@ -187,7 +198,7 @@
                         <b>Oracle</b><br/>
                         <i>Cloud Development Co-op – Morrisville, NC</i>
                         <span style="float: right;">May 2016 – December 2016</span>
-                        <ul>
+                        <ul class="body-list">
                             <li>Created and maintained a Cloud that delivered Environment-as-a-Service for our internal customers</li>
                             <li>Created probes that monitor and measure customers’ resources on different Cloud environments</li>
                             <li>Created GitLab Continuous Integration stacks that reflected a production environment for testing purposes</li>
@@ -200,7 +211,7 @@
                         <br/>
                         <i>Senior Design Project – NC State University</i>
                         <span style="float: right;">January 2018 – June 2018</span>
-                        <ul>
+                        <ul class="body-list">
                             <li>Took the initiative to create presentations to demonstrate product and facilitated meetings with NetApp</li>
                             <li>Used Python scripts to traverse/unarchive complex directory trees and send log data to Logstash</li>
                             <li>Created Logstash and Elasticsearch pipelines to ingest and index specific, relevant log data</li>
@@ -216,7 +227,7 @@
                 <hr/>
                 <p>
                     <!-- TODO -->
-                    Several of my personal and school projects can be found on my <a href="https://github.com/JakeFerrero">GitHub page</a>
+                    Projects that I have worked on can be found on my <a href="https://github.com/JakeFerrero">GitHub page</a>
                 </p>
                 </div>
 
@@ -226,9 +237,9 @@
                         <h3>Related Courses</h3>
                     </a>
                     <hr/>
-                    <div class="row">
+                    <div class="row" style="margin-bottom: -20px;">
                         <div class="column-2">
-                            <ul>
+                            <ul class="course-list">
                                 <li>Computer Networks</li>
                                 <li>Database Management Systems</li>
                                 <li>Computer Security</li>
@@ -236,7 +247,7 @@
                             </ul>
                         </div>
                         <div class="column-2">
-                            <ul>
+                            <ul class="course-list">
                                 <li>Java I and II</li>
                                 <li>C/Software Tools</li>
                                 <li>Data Structures and Automata</li>
@@ -252,15 +263,13 @@
                     </a>
                     <hr/>
                     <p>
-                        <ul>
-                            <s><li>Extensive knowledge of Java, C, Unix scripting, HTML, Javascript, CSS, Python, and golang</li></s>
-                            <li>Experience in Linux, Windows, and Mac OS Environments</li>
+                        <ul class="body-list">
+                            <li>Experience developing in Linux, MacOS, and Windows environments</li>
                             <li>Extensive knowledge of Git, Gitlab, and GitlabCI</li>
                             <li>Experience in OpenStack, Docker, the ElasticStack, and Chef automation</li>
                             <li>Significant experience in code development and testing/automation</li>
                             <li>Background in both DevOps Agile and Waterfall development methodologies</li>
                             <li>Enhanced teamwork and team building skills through working on multiple initiatives within a Fortune 500 company</li>
-                            <li>Intermediate Japanese language proficiency</li>
                         </ul>
                     </p>
                 </div>
