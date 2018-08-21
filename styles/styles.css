@@ -34,7 +34,7 @@ hr {
 
 /* ---------- Header ---------- */
 #header {
-    height: 100px;
+    min-height: 100px;
     left: 0;
     right: 0;
     overflow: auto;
@@ -42,8 +42,28 @@ hr {
     color: white;
 }
 
-#header h2 {
+#header h1 {
     margin: 0;
+}
+
+#pic {
+    text-align: center;
+    z-index: 1;
+    margin-top: 5px;
+}
+
+#pic-border {
+    float: left;
+    margin-left: 30px;
+    height: 250px;
+    width: 225px;
+    background-color: rgb(53, 60, 72);
+}
+
+#header-text {
+    margin-left: 280px;
+    margin-top: 80px;
+    max-width: 900px;
 }
 /* ---------- --- ---------- */
 
@@ -148,10 +168,6 @@ hr {
 }
 /* ---------- --- ---------- */
 
-/* ---------- Horizontal Rules ---------- */
-
-/* ---------- --- ---------- */
-
 /* ---------- Custom "tables" ---------- */
 .row {
     width: 100%;
@@ -162,12 +178,6 @@ hr {
     float: left;
     width: 50%;
     text-align: left;
-}
-
-.column-3 {
-    float: left;
-    width: 33.33%;
-    text-align: center;
 }
 /* ---------- --- ---------- */
 
