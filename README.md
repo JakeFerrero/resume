@@ -1,2 +1,2 @@
-# resume
-Contains code for my digital resume as well as backups for my hard-copy
+# Resume
+An online resume created using HTML, JavaScript, and CSS. Additionally, this repo holds copies of my physical resume.
