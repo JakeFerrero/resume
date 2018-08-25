@@ -26,8 +26,8 @@ function jsbar(val) {
     }
 }
 
-function unixbar(val) {
-    var elem = document.getElementById("unix-progress");
+function shellbar(val) {
+    var elem = document.getElementById("shell-progress");
     var width = 1;
     var animation = setInterval(frame, 8);
     function frame() {
@@ -126,7 +126,7 @@ function windowsbar(val) {
 
 window.onload = javabar(10);
 window.onload = jsbar(8);
-window.onload = unixbar(9);
+window.onload = shellbar(9);
 window.onload = cbar(8);
 window.onload = pythonbar(7);
 window.onload = gobar(7);
